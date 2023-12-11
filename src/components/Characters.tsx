@@ -68,7 +68,6 @@ const Characters: FC = () => {
       );
 
       setCharacters(charactersWithDetails);
-      console.log('characters', charactersWithDetails);
     } catch (error) {
       console.error('Error fetching data:', error);
     } finally {
